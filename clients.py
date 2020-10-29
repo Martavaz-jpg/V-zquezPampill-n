@@ -40,3 +40,12 @@ class Clientes():
         except:
             print('ERROR modulo validar dni')
             return None
+
+    def selSexo():
+        try:
+            if var.ui.rbtFem.isChecked():
+                print('Has elegido femenino')
+            if var.ui.rbtMasc.isChecked():
+                print('Has elegido Masculino')
+        except Exception as error:
+            print('Error: %s')
